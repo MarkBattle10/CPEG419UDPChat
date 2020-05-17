@@ -87,7 +87,7 @@ int main(int argc, char *argv[])
 				strcpy(usersBuffer[numUsers], echoBuffer);
 				printf("%s\n", usersBuffer[numUsers]);
 				numUsers++;
-				printf("numUsers: %d\n",numUsers);
+				//printf("numUsers: %d\n",numUsers);
 			}
 		}
 		/*after all users enter the chatroom, begin sending messages*/
